@@ -1,0 +1,148 @@
+
+body{
+  font-family: "Montserrat";
+
+}
+#title{
+  background-color: #ff4c68;
+   color: white;
+}
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+   font-size: 3rem;
+  }
+  h2{
+
+    font-family: "Montserrat-bold";
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+h3{
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+.icon{
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.container-fluild{
+   padding: 3% 15% 7%;
+ }
+/* navigation bar  */
+
+.navbar{
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.navbar-brand{
+ font-weight: bold;
+
+}
+.nar-item{
+padding: 0 30px;
+}
+
+/* Download button */
+.downloadbutton{
+  margin: 9% 3% 5% 0;
+}
+
+ /* title image */
+ .title-image{
+   width: 60%;
+   transform: rotate(25deg);
+   padding-left: 50px;
+   position: absolute;
+  left:10%;
+ }
+
+ /* features */
+
+ #features{
+   padding: 7% 15%;
+   background-color: #fff;
+   position: relative;
+   z-index: 1;
+ }
+.features-box{
+  text-align: center;
+}
+/* testimonials */
+
+#testimonials{
+
+   color: #fff;
+  background-color: #ef8172;
+  text-align: center;
+}
+.testimonial-image{
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+.carousel-item{
+  padding: 8% 10%;
+}
+
+ /* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+/* pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-box{
+padding: 5% 4%;
+}
+.signupbutton1{
+  width: 80%;
+}
+.signupbutton{
+  width: 80%;
+}
+@media  (max-width: 993px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+/* cta section */
+#cta{
+
+  background-color: #ff4c68;
+  padding: 4% 4%;
+  text-align: center;
+}
+.lower{
+padding: 0 10%;
+  font-size: 4.5rem;
+      color: #fff;
+}
+.downloadbtn{
+  padding: 8% 5%;
+  margin: 4% 1%;
+}
+/* footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 5% 10% ;
+}
